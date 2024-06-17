@@ -31,6 +31,11 @@ a {
     text-decoration: none;  
 }
 
+.right{
+    display: flex;
+    justify-content: flex-end;
+}
+
 /*
     HEADER
 */
@@ -41,17 +46,32 @@ header {
 
 .container-header {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    text-align: center;
 }
 
 .my-col-1-2-header {
+    display: flex;
+    align-items: center;
     width: calc(100% / 2);
-    height: 50px;
 }
 
+.my-col-1-2-header ul{
+    display: flex;
+    width: 100%;
+}
+
+.my-col-1-2-header a{
+    color: black;
+    opacity: .9;
+}
+
+.my-col-1-2-header a,
+.my-col-1-2-header > ul > li > a {
+    padding: 30px 20px;
+}
+
+.my-col-1-2-header > * {
+
+}
 
 /*
     MAIN
