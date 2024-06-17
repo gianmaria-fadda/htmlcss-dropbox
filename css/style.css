@@ -14,7 +14,7 @@ html {
 /*
     GENERAL
 */
-.container {
+.container-main-footer {
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -76,6 +76,57 @@ header {
 /*
     MAIN
 */
+
+.color-acqua-box {
+    background-color: #B4D0E7;
+    
+    max-height: 520px;
+}
+
+main {
+
+}
+
+.container-main-footer {
+}
+
+.blue-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 10px;
+    background-color: #0061FF;
+    border: none;
+    color: white;
+    font-size: 1.3cap;
+}
+
+.container-main-footer h1 {
+    font-size: 5cap;
+    font-weight: 900;
+}
+
+.left-box {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
+
+.left-box > * {
+    padding:20px 0;
+}
+
+.fa-arrow-down {
+    font-size: 5cap;
+}
+
+.right-box {
+}
+
+.jumbo-img {
+
+}
 
 /*
     FOOTER
