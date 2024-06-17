@@ -18,3 +18,45 @@ html {
     max-width: 1000px;
     margin: 0 auto;
 }
+
+img {
+    max-width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;  
+}
+
+/*
+    HEADER
+*/
+
+header {
+    
+}
+
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.my-col-1-2-header {
+    width: calc(100% / 2);
+    height: 50px;
+}
+
+
+/*
+    MAIN
+*/
+
+/*
+    FOOTER
+*/
