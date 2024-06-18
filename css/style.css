@@ -49,6 +49,7 @@ a {
 .info-container {
     display: flex;
     margin: 100px 0;
+    justify-content: space-between;
 }
 
 .info-container .small-info {
@@ -56,7 +57,7 @@ a {
 }
 
 .info-container .big-info {
-    width: 70%;
+    width: 65%;
 }
 
 /*
@@ -192,6 +193,27 @@ a {
     padding: 10px;
 }
 
+.small-info > h3 {
+    margin-top: 30px;
+}
+
+.small-info > p {
+    margin-top: 15px;
+}
+
+.white-button-m {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    font-size: 1.3cap;
+    margin-top: 30px;
+}
+
 #features {
     display: flex;
     flex-wrap: wrap;
@@ -200,6 +222,10 @@ a {
 
 #features > * {
     width: 30%;
+}
+
+#features > * h3{
+    padding-bottom: 15px;
 }
 
 #cta-business {
