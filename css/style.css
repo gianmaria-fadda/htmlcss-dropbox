@@ -193,12 +193,60 @@ a {
     padding: 10px;
 }
 
+.description-button a {
+    display: flex;
+    justify-content: center;
+    background-color: #0061FF;
+    padding: 20px 10px;
+    border: none;
+    color: white;
+    font-size: 1.3cap;
+}
+
+.description-link a {
+    text-decoration: underline;
+}
+
+.box-1-3 > * .hr-description {
+    width: 20%;
+    margin-left: 10px;
+}
+
+.plan-space > * {
+    margin: 10px;
+}
+
+.description-month  {
+    margin-bottom: 40px;
+}
+
+.hr-description, .description-button {
+    margin: 40px 0;
+}
+
+.first {
+    margin-top: 75px;
+}
+
+.second {
+    margin-top: 58px;
+}
+
 .small-info > h3 {
     margin-top: 30px;
 }
 
 .small-info > p {
     margin-top: 15px;
+}
+
+.small-info a {
+    width: 130px;
+    height: 40px;
+    background-color: #0061FF;
+    border: none;
+    color: white;
+    font-size: 1.3cap;
 }
 
 .white-button-m-1 {
