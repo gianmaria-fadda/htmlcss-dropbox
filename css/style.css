@@ -265,6 +265,10 @@ a {
     margin-top: 58px;
 }
 
+.fa-check {
+    color: #0560FF;
+}
+
 .big-margin {
     border: 20px solid white;
     margin: 0;
@@ -275,6 +279,10 @@ a {
 }
 
 .big-info > p {
+    margin-top: 50px;
+}
+
+.small-margin > h3 {
     margin-top: 50px;
 }
 
@@ -298,6 +306,10 @@ a {
     color: black;
     font-size: 1.3cap;
     margin-top: 30px;
+}
+
+.container-margin {
+    margin-bottom: 30px;
 }
 
 #features {
@@ -387,7 +399,6 @@ a {
     border: none;
     color: black;
     font-size: 1.3cap;
-    margin-top: 30px;
 }
 
 .margin-last-h2 {
