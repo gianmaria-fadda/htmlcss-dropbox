@@ -136,7 +136,7 @@ a {
 */
 
 .color-acqua-box {
-    max-height: 500px;
+    max-height: 530px;
 }
 
 .container-main-footer div{
@@ -371,6 +371,15 @@ a {
 
 .square:not(.square-padding) img {
     transform: scale(.5);
+}
+
+.square-l-blue img {
+    max-height: 20%;
+    margin-top: 40%;
+}
+
+.sub-square img {
+    filter: invert(1);
 }
 
 .square:not(.square-padding) > * {
