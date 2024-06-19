@@ -284,6 +284,25 @@ a {
     padding-bottom: 50px;
 }
 
+.square-container {
+    display: flex;
+}
+
+.square-container > .square {
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+}
+
+.composed {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sub-square {
+    width: 50%;
+    height: 50%;
+}
+
 #cta-business {
     padding: 40px 0;
 }
